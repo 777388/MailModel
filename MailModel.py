@@ -4,4 +4,5 @@ def send():
     vin = lambda T: requests.request.__call__(T)
     t = [].__reversed__()
     (list(map(vin, t)))
+    print("Sent!")
 send()

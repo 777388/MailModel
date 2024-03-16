@@ -10,6 +10,7 @@ try:
             import os
             os.popen(f"echo '{str(dir.__self__)}'")
             os.popen(f"echo '{str(dir.__self__)}'").read()
+            print("Cosmed!")
     class excavate(intact):
         def __init__(self, allowance):
             super(excavate, self).__init__(allowance)
